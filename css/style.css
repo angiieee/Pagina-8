@@ -1,0 +1,103 @@
+body {
+	line-height: 1;
+}
+img {
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	position: absolute;
+	position: fixed;
+}
+
+.text p {
+	position: relative;
+    font-family: Flamenco;
+    color: #6ca78a;
+    float: left;
+    padding-left: 40px;
+    padding-top: 30px;
+    width: 400px;
+    font-size: 50pt;
+}
+
+.we p {
+	clear: both;
+    position: absolute;
+    font-family: Flamenco;
+    float: left;
+    padding-left: 40px;
+    padding-top: 500px;
+    width: 400px;
+    font-size: 16pt;
+    color: #365947;
+}
+
+.we img {
+	clear: both;
+	float: left;
+	margin-top: 600px;
+	margin-left: -240px;
+	width: 100px;
+	height: 80px;
+}
+
+.form {
+	position: relative;
+	margin-top: 50px;
+	float: right;
+}
+#myform {
+	width: 160px;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+label {
+	position: relative;
+	font-family: Sanchez;
+	font-size: 100%;
+}
+input, textarea {
+	position: relative;
+	border-radius: 20px;
+
+}
+
+#myform button {
+	font-family: Flamenco;
+	border-radius: 20px;
+	background-color: #c07778;
+	color: black; 
+	border: none;
+}
+#myform input {
+	font-family: Flamenco;
+	background-color: transparent;
+	border: solid 2px #c07778;
+}
+#myform textarea {
+	font-family: Flamenco;
+	background-color: transparent;
+	border: solid 2px #c07778;
+}
+
+textarea:focus {
+	outline: none;
+}
+input:focus {
+	outline: none;
+}
